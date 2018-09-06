@@ -39,7 +39,7 @@ class GoogleFeed {
 
 		$results = $service->files->listFiles([
 			'pageSize' => 10,
-			'fields' => "nextPageToken, files(contentHints/thumbnail,fileExtension,iconLink,id,name,size,thumbnailLink,webContentLink,webViewLink,mimeType,parents)",
+			'fields' => "nextPageToken, files(thumbnailLink,webViewLink)",
 			'q' => "'".$folderId."' in parents"
 		]);
 

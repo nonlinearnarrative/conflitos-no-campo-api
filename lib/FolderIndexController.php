@@ -11,28 +11,40 @@ class FolderIndexController {
 
   public function updateIndex($request, $response, $args) {
     // Set up JSON object
-    $folderIndexes = (object)[];
+    $folderIndexes = [];
 
     // Get JSON files
     foreach (new DirectoryIterator('./cases') as $file) {
       if ($file->getType() === "file" && $file->getExtension() === "json") {
         $caseName = $file->getBasename('.json');
         $case = json_decode(file_get_contents($file->getPathname()));
+        $case->documents = [];
 
-        if (count($case->folders) > 0) {
-          foreach ($case->folders as $folder) {
-            var_dump($this->feed->getFolder($folder));
+        // Loop over all folders
+        foreach ($case->folders as $folderName) {
+          // Loop over all files
+          foreach($this->feed->getFolder($folderName) as $file) {
+            $processedFile = (object)[];
+            // echo '<pre>';var_dump($file);echo '</pre>';
+            $processedFile->thumbnail = $file->thumbnailLink;
+            $processedFile->link = $file->webViewLink;
+            $case->documents[] = $processedFile;
           }
         }
+
+        // Add case to index
+        $folderIndexes[$caseName] = $case;
       }
     }
 
-    $response
-      ->getBody()
-      ->write(
-        json_encode($folderIndexes)
-      );
+    // Create final dataset
+    $data = json_encode($folderIndexes, JSON_UNESCAPED_SLASHES);
 
+    // Save to file
+    file_put_contents('folderindex.json', $data);
+
+    // Return data as response
+    $response->getBody()->write($data);
     return $response;
   }
 }
