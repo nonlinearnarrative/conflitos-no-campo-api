@@ -1,0 +1,14 @@
+{
+    "name": "nonlinearnarrative/conflicts",
+    "type": "project",
+    "require": {
+        "google/apiclient": "^2.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "neufv",
+            "email": "_@neufv.website"
+        }
+    ]
+}
