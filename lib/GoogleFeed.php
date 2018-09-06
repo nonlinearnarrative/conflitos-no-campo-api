@@ -1,6 +1,9 @@
 <?php
 require 'key.php';
 
+/**
+ * Scopes for the Google API
+ */
 define('GOOGLE_SCOPES',
 	implode(' ',
 		array(
@@ -12,8 +15,13 @@ define('GOOGLE_SCOPES',
 	)
 );
 
+/**
+ * Main Google Feed
+ */
 class GoogleFeed {
-
+	/*
+	 * Get a new client
+	 */
 	public function getClient() {
 		$client = new \Google_Client();
 		$client->setDeveloperKey(API_KEY);
@@ -22,6 +30,9 @@ class GoogleFeed {
 		return $client;
 	}
 
+	/*
+	 * Get folder object
+	 */
 	public function getFolder($folderId){
 		$client = $this->getClient();
 		$service = new \Google_Service_Drive($client);
@@ -35,6 +46,9 @@ class GoogleFeed {
 		return $results->files;
 	}
 
+	/*
+	 * Get a document and convert to HTML, may be removed soon
+	 */
 	public function getDocument($documentId) {
 		$client = $this->getClient();
 		$service = new \Google_Service_Drive($client);
