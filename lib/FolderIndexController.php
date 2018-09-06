@@ -25,7 +25,6 @@ class FolderIndexController {
           // Loop over all files
           foreach($this->feed->getFolder($folderName) as $file) {
             $processedFile = (object)[];
-            // echo '<pre>';var_dump($file);echo '</pre>';
             $processedFile->id = $file->id;
             $processedFile->link = $file->webViewLink;
             $case->documents[] = $processedFile;
