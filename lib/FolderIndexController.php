@@ -47,4 +47,12 @@ class FolderIndexController {
     $response->getBody()->write($data);
     return $response;
   }
+
+  /*
+   * Return earlier scraped JSON file
+   */
+  public function returnJSON($request, $response, $args) {
+    $response->getBody()->write(file_get_contents('folderindex.json'));
+    return $response;
+  }
 }
