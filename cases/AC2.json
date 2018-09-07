@@ -1,12 +1,12 @@
-
-	"external": [
+{
+  "external": [
 	{
-		"link": "https://en.wikipedia.org/wiki/Wilson_Pinheiro",
-		"title": "Wikipedia: Wilson Pinheiro"
+		"link": "https://pt.wikipedia.org/wiki/Wilson_de_Souza_Pinheiro",
+		"title": "BWikipedia: Wilson Pinheiro"
 	},
 	{
-		"link":"http://amazonia.org.br/2012/03/justi%c3%a7a-do-acre-condena-globo-a-indenizar-fam%c3%adlia-de-sindicalista/",
-		"title": "amazonia.org/WilsonPinheiro" 
+		"link":"https://3dejulhonoticias.com.br/?p=108399",
+		"title": "3 De Julho Noticias" 
 	}
 
 	],
