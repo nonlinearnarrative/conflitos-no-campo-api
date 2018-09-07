@@ -1,4 +1,15 @@
 {
+	"external": [
+    {
+    	"link": "https://pt.wikipedia.org/wiki/Margarida_Maria_Alves",
+    	"title": "Wikipedia: Margarida Maria Alves"
+	},
+	{
+		"link": "https://drive.google.com/file/d/0Byo7P47EvrO9c1hwNWl4NEd2Snc/view",
+		"title": "Acervo Fotográfico"
+	}
+    
+  ],
   "folders": ["0Byo7P47EvrO9YlN0bVhpUEhfVkE"
              ]
 }

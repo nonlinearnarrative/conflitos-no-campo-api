@@ -1,4 +1,15 @@
 {
+	"external": [
+    {
+    	"link": "https://pt.wikipedia.org/wiki/Josimo_Morais_Tavares",
+    	"title": "Wikipedia: Josimo Morais Tavares"
+	},
+	{
+    	"link": "https://www.mstbrazil.org/news/25th-anniversary-murder-father-josimo",
+    	"title": "MST: 25th Anniversary of the murder of Father Josimo"
+	}
+    
+  ],
   "folders": ["0Byo7P47EvrO9aXRkTTJqdkE3b0k"
              ]
 }
