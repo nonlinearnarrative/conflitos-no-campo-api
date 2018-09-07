@@ -1,7 +1,15 @@
-{
-  "external": [
-    "https://"
-  ],
+
+	"external": [
+	{
+		"link": "https://en.wikipedia.org/wiki/Wilson_Pinheiro",
+		"title": "Wikipedia: Wilson Pinheiro"
+	},
+	{
+		"link":"http://amazonia.org.br/2012/03/justi%c3%a7a-do-acre-condena-globo-a-indenizar-fam%c3%adlia-de-sindicalista/",
+		"title": "amazonia.org/WilsonPinheiro" 
+	}
+
+	],
   "folders": [
   "0Byo7P47EvrO9MVZITnpQbjNJd2s"
   ]

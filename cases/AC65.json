@@ -1,4 +1,14 @@
-{
+"external": [
+	{
+		"link": "https://en.wikipedia.org/wiki/Chico_Mendes",
+		"title": "Wikipedia: Chico Mendes"
+	},
+	{
+		"link":"https://www.britannica.com/biography/Chico-Mendes",
+		"title": "Chico Mendes – Encycloppaedia Britannica" 
+	}
+
+	],
   "folders": [
   "0Byo7P47EvrO9aS1LMjFKbGlaS3c"]
 }
