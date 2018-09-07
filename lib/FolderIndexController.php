@@ -8,7 +8,7 @@ class FolderIndexController {
      $this->container = $container;
      $this->feed = new GoogleFeed();
   }
-
+  
   public function updateIndex($request, $response, $args) {
     // Set up JSON object
     $folderIndexes = [];

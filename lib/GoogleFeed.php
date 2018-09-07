@@ -38,7 +38,7 @@ class GoogleFeed {
 		$service = new \Google_Service_Drive($client);
 
 		$results = $service->files->listFiles([
-			'pageSize' => 10,
+			'pageSize' => 10000,
 			'fields' => "nextPageToken, files(id,webViewLink)",
 			'q' => "'".$folderId."' in parents"
 		]);
