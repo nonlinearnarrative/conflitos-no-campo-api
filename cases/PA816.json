@@ -1,6 +1,10 @@
 {
 	"external": [
-    "https://politica.estadao.com.br/noticias/geral,lider-do-mst-e-assassinado-no-para,20020628p53286"
+	{
+		"link": "https://politica.estadao.com.br/noticias/geral,lider-do-mst-e-assassinado-no-para,20020628p53286",
+		"title": "Estadão: Líder do MST é assassinado no Pará"
+	}
+    
   ],
   "folders": ["0Byo7P47EvrO9YzBKbjBxYXBPVzA"
              ]

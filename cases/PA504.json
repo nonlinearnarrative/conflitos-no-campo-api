@@ -1,9 +1,23 @@
 {
 	"external": [
-    "https://en.wikipedia.org/wiki/Dorothy_Stang",
-    "https://en.wikipedia.org/wiki/They_Killed_Sister_Dorothy",
-    "http://www.theykilledsisterdorothy.com/",
-    "https://www.youtube.com/watch?v=ogRAW2iRNjM"
+	{
+		"link": "https://en.wikipedia.org/wiki/Dorothy_Stang",
+		"title": "Wikipedia: Dorothy Stang"
+	},
+	{
+		"link": "https://en.wikipedia.org/wiki/They_Killed_Sister_Dorothy",
+		"title": "Wikipedia: They Killed Sister Dorothy"
+	},
+	{
+		"link": "http://www.theykilledsisterdorothy.com/",
+		"title": "Website: They Killed Sister Dorothy"
+	},
+	{
+		"link": "https://www.youtube.com/watch?v=ogRAW2iRNjM",
+		"title": "YouTube Official trailer: They Killed Sister Dorothy"
+	}
+    
+   
   ],
   "folders": ["0Byo7P47EvrO9WGpvSy1WR3FsVjQ"
              ]

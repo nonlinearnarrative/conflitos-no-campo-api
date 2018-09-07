@@ -1,7 +1,14 @@
 {
     "external": [
-    "https://www.nytimes.com/1991/02/05/world/rural-union-chief-is-slain-in-brazil.html",
-    "https://www.youtube.com/watch?v=rH45C_1JZ7o"
+    {
+        "link": "https://www.nytimes.com/1991/02/05/world/rural-union-chief-is-slain-in-brazil.html",
+        "title": "NY Times: Rural Union chief is slain in Brazil"
+    },
+    {
+        "link": "https://www.youtube.com/watch?v=rH45C_1JZ7o",
+        "title": "YouTube: Expedito em busca de outros nortes"
+    }
+    
   ],
   "summary": "A description",
   "folders": [ 
