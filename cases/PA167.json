@@ -1,4 +1,15 @@
 {
+	"external": [
+    {
+    	"link": "https://pt.wikipedia.org/wiki/Usina_Hidrel%C3%A9trica_de_Belo_Monte",
+    	"title": "Wikipedia: Usina de Belo Monte"
+	},
+	{
+    	"link": "https://mundoeducacao.bol.uol.com.br/geografia/usina-belo-monte.htm",
+    	"title": "Mundo Educação: Usina de Belo Monte"
+	}
+    
+  ],
   "folders": ["0Byo7P47EvrO9OWhuUHlXSlBvT0E",
               "0Byo7P47EvrO9ZmRyeGNkYjhxUHM",
               "0Byo7P47EvrO9TzFCZHpZQUxpZ0E"
