@@ -1,7 +1,15 @@
 {
   "external": [
-    "https://"
-  ],
+	{
+		"link": "https://pt.wikipedia.org/wiki/Wilson_de_Souza_Pinheiro",
+		"title": "BWikipedia: Wilson Pinheiro"
+	},
+	{
+		"link":"https://3dejulhonoticias.com.br/?p=108399",
+		"title": "3 De Julho Noticias" 
+	}
+
+	],
   "folders": [
   "0Byo7P47EvrO9MVZITnpQbjNJd2s"
   ]

@@ -1,4 +1,19 @@
 {
+	"external": [
+	{
+		"link": "https://pt.wikipedia.org/wiki/Chico_Mendes",
+		"title": "Wikipedia: Chico Mendes"
+	},
+	{
+		"link":"https://www.nytimes.com/1990/08/19/books/why-they-killed-chico-mendes.html",
+		"title": "NY Times: Why They Killed Chico Mendes" 
+	},
+	{
+		"link": "http://wwf.panda.org/wwf_news/?213371/Chico-Mendes-nominated-Patron-of-the-Brazilian-Environment",
+		"title": "WWF: Chico Mendes nominated Patron of the Brazilian Environment"
+	}
+
+	],
   "folders": [
   "0Byo7P47EvrO9aS1LMjFKbGlaS3c"]
 }
